@@ -10,6 +10,8 @@ return {
         null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.diagnostics.rubocop,
         null_ls.builtins.formatting.rubocop,
+        null_ls.builtins.formatting.ruff,
+        null_ls.builtins.diagnostics.ruff,
       },
     })
     vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
